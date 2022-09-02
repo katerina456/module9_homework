@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+}
+
+.button {
+  height: 30px;
+  border-radius: 10px;
+  background-color: SkyBlue;
+  border: 0;
+}
+
+.button:hover {
+  background-color: DeepSkyBlue;
+}
+
+.input {
+  height: 20px;
+  border-radius: 10px;
+}
+
+.card {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.card img {
+  height: 100%;
+}
+
+.result {
+  display: flex;
+  flex-wrap: wrap;
+}
